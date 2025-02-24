@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
+import './App.css'
 
 
 //navigation bar
@@ -26,6 +27,10 @@ const Navbar = () => {
                                 <NavLink to ='/about'>About</NavLink>
                             </li>
                         </ul>
+                    </div>
+
+                    <div className="navbar-right">
+                        <button>Sign in/Sign Up</button>
                     </div>
                 </nav>
             

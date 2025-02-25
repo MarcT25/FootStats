@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
-import './App.css'
+import './CSS/App.css'
 
 
 //navigation bar
@@ -30,6 +30,9 @@ const Navbar = () => {
                     </div>
 
                     <div className="navbar-right">
+                        <search>
+                            <input placeholder="Search for statistics..."></input>
+                        </search>
                         <button>Sign in/Sign Up</button>
                     </div>
                 </nav>

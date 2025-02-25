@@ -20,17 +20,19 @@ body {
 
 .navbar-right{
     display: flex; 
+    padding: 0 0 0 15px;
     flex-direction: row; 
     align-items: right; 
     justify-content: right;
 }
 
-ul {
+
+.navbar ul{
     list-style-type: none;
 }
 
-li {
-    display: inline;
+.navbar li{
+    display: inline-block;
     margin-right: 20px;
 }
 

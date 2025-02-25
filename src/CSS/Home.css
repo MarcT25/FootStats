@@ -1,0 +1,33 @@
+.welcomeBanner{
+    margin: 5%;
+    padding: 5%;
+    align-items: center;
+}
+
+.about{
+    background-color: deepskyblue;
+    display: inline-block;
+    padding: 50px 15px 55px 15px;
+    text-align: right;
+}
+
+.player{
+    padding: 55px 15px 55px 15px;
+}
+
+.teams{
+    background-color: deepskyblue;
+    display: block;
+    padding: 50px 15px 55px 15px;
+    text-align: right;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+li{
+
+    display: inline-block;
+    padding: 0 0 0 15px;
+}

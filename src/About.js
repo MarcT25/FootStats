@@ -72,7 +72,7 @@ function About() {
                             Match Events Tracker,  
                         </li>
                         <li>
-                            Multi-League Coverage.
+                            Multi-League Coverage
                         </li>
                         <li>
                             and More.

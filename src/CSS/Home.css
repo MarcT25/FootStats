@@ -4,6 +4,28 @@
     align-items: center;
 }
 
+body{
+    display: grid;
+}
+
+.homeRight{
+    float: right;
+    padding: 0 15px 0 0;
+}
+
+.homeRight ul{
+    list-style: none;
+}
+
+.homeLeft{
+    float: left;
+    padding: 0 0 0 15px;
+}
+
+.homeLeft ul{
+    list-style: none;
+}
+
 .about{
     background-color: deepskyblue;
     display: inline-block;
@@ -11,8 +33,20 @@
     text-align: right;
 }
 
+.about ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0 0 0 15px;
+}
+
 .player{
     padding: 55px 15px 55px 15px;
+}
+
+.player ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0 0 0 0;
 }
 
 .teams{
@@ -22,12 +56,16 @@
     text-align: right;
 }
 
-ul{
-    list-style-type: circle;
-}
-
-li{
-
+.teams ul{
+    list-style: none;
     display: inline-block;
     padding: 0 0 0 15px;
+}
+
+.liveMatches{
+    padding: 0 15px 0 15px;
+}
+
+.liveMatches ul{
+    list-style: none;
 }

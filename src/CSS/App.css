@@ -4,11 +4,13 @@
 }
 body {
     font-family: system-ui;
+    
 }
 .navbar {
     padding: 10px;
     margin-bottom: 10px;
     background: deepskyblue;
+    color: black;
 }
 
 .navbar-center {
@@ -28,6 +30,7 @@ body {
 
 
 .navbar ul{
+    display: inline-block;
     list-style-type: none;
 }
 
